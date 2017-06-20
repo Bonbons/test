@@ -12,3 +12,13 @@ git clean -f
 # Revert + clean
 git reset --hard HEAD^
 
+# Créer une branche
+git checkout -b <nom_branche>
+
+
+# Aller sur la nom_branche
+git checkout <nom_branche>
+
+
+# mettre la nouvelle branche sur le depot distant
+git push origin <nom_branche>
